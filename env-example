@@ -1,0 +1,24 @@
+# ─────────────────────────────────────────────
+# Domain URL Finder – configuración
+# Copia este archivo como .env y ajusta los valores
+# ─────────────────────────────────────────────
+
+# [REQUERIDO] Dominio a escanear (sin http:// ni www)
+TARGET_DOMAIN=sitio.com
+
+# [OPCIONAL] Nombre del archivo CSV de salida
+# Si se omite se genera automáticamente: example_com_urls.csv
+# OUTPUT_FILE=resultado.csv
+
+# [OPCIONAL] Fuentes a utilizar (separadas por coma)
+# Opciones: robots, sitemap, wayback, crawl
+# SOURCES=robots,sitemap,wayback,crawl
+
+# [OPCIONAL] Profundidad máxima del crawl (default: 2)
+# SCAN_DEPTH=2
+
+# [OPCIONAL] Máximo de páginas a rastrear en el crawl (default: 500)
+# MAX_PAGES=500
+
+# [OPCIONAL] Límite de resultados del Wayback Machine (default: 5000)
+# WAYBACK_LIMIT=5000
