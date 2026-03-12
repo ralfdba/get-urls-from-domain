@@ -16,8 +16,8 @@ Herramienta en Python para obtener todas las URLs públicas de un dominio usando
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/domain-url-finder.git
-cd domain-url-finder
+git clone https://github.com/tu-usuario/get-urls-from-domain.git]
+cd get-urls-from-domain
 ```
 
 ### 2. Crear y activar el entorno virtual
